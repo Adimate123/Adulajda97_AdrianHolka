@@ -1,0 +1,27 @@
+git checkout "add_setting_tests"
+nano setting.md
+1. The entered link updates the user's photo.
+2. the user has the ability to update the name.
+3. 200 characters are allowed to be entered.
+4.The new email address is not used in previous registrations.
+5. The minimum length of the new password is 8 characters.
+6. check the grammatical correctness.
+7. The minimum length of password symbols is 8 characters.
+8. The user is logged out and redirected to the home page as a guest.
+git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   setting.md
+        new file:   sign_in.md
+        new file:   sign_up.md
+git add "settimg.md"
+$ git commit -m "add_tests_setting"
+[main (root-commit) dcb4461] add_tests_setting
+ 3 files changed, 18 insertions(+)
+ create mode 100644 setting.md
+ create mode 100644 sign_in.md
+ create mode 100644 sign_up.md
